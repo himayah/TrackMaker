@@ -1,0 +1,15 @@
+# TrackerMaker 設定ファイルの例
+# 使い方: python main.py --config example_config.yaml --out midi
+
+rows_per_pattern: 64
+num_patterns: 4
+
+bpm_min: 100
+bpm_max: 150
+
+speed: 6
+chord_change_rows: 16
+bass_pulse_rows: 4
+
+root_note_min: 48
+root_note_max: 64
