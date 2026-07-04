@@ -1,4 +1,4 @@
-# TrackerMaker
+# TrackMaker
 
 **[English](./README.md) | [日本語](#日本語)**
 
@@ -11,7 +11,7 @@ Pythonのみ（外部依存はほぼ無し）で実装されています。
 
 ### 1. このプロジェクトの目的
 
-TrackerMaker は、以下を行う小さな作曲エンジンです。
+TrackMaker は、以下を行う小さな作曲エンジンです。
 
 1. **世界中の音楽伝統から集めた41種類の音階**（西洋教会旋法、アラブのマカーム、インドのラーガ、日本の伝統音階、中国の五声、インドネシアのガムラン音階、その他）からランダムに1つを選ぶ。
 2. モチーフベースの旋律展開（反行・逆行・拡大・縮小）を使い、メロディ・和声/ドローン・ベースライン・ドラムパターンをアルゴリズムで生成する。
@@ -43,11 +43,11 @@ TrackerMaker は、以下を行う小さな作曲エンジンです。
 
 ### 3. 依存関係と導入手順
 
-TrackerMaker のコア機能（作曲エンジン＋6形式すべてのエクスポータ）は **Python標準ライブラリのみ**で動作します。デフォルト設定で実行する分には追加の依存関係は不要です。
+TrackMaker のコア機能（作曲エンジン＋6形式すべてのエクスポータ）は **Python標準ライブラリのみ**で動作します。デフォルト設定で実行する分には追加の依存関係は不要です。
 
 ```bash
 git clone <このリポジトリ>
-cd TrackerMaker
+cd TrackMaker
 python main.py --seed 1234 --out midi
 ```
 
@@ -177,7 +177,7 @@ flowchart TD
 main.py                      CLIエントリポイント
 requirements.txt             オプション依存関係（YAML設定用のPyYAML）
 example_config.yaml          設定ファイルの例
-trackermaker/
+trackmaker/
   config.py                  YAML/JSON設定ローダー＋既定値
   core/
     models.py                 Song / Pattern / Channel / NoteEvent / Instrument / Effect

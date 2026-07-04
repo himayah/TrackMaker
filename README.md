@@ -1,4 +1,4 @@
-# TrackerMaker
+# TrackMaker
 
 **[English](#english) | [日本語](./README.ja.md)**
 
@@ -10,7 +10,7 @@ A seed-reproducible, world-scale-aware random composition engine for classic mus
 
 ### 1. What this project is
 
-TrackerMaker is a small compositional engine that:
+TrackMaker is a small compositional engine that:
 
 1. Picks a musical scale at random from a library of **41 scales drawn from musical traditions around the world** (Western church modes, Arabic maqamat, Indian ragas, Japanese pentatonics, Chinese pentatonic modes, Indonesian gamelan tunings, and more).
 2. Generates a short piece of music (melody, harmony/drone, bassline, drums) algorithmically, using motif-based melodic development (inversion, retrograde, augmentation, diminution).
@@ -42,11 +42,11 @@ This means the composition logic (melody/harmony/bass/drums) is written exactly 
 
 ### 3. Requirements & installation
 
-TrackerMaker's core (composition engine + all six exporters) uses **only the Python standard library**. No dependency is required to run it with the default configuration.
+TrackMaker's core (composition engine + all six exporters) uses **only the Python standard library**. No dependency is required to run it with the default configuration.
 
 ```bash
 git clone <this-repo>
-cd TrackerMaker
+cd TrackMaker
 python main.py --seed 1234 --out midi
 ```
 
@@ -176,7 +176,7 @@ flowchart TD
 main.py                      CLI entry point
 requirements.txt             optional dependencies (PyYAML for YAML config)
 example_config.yaml          example configuration file
-trackermaker/
+trackmaker/
   config.py                  YAML/JSON config loader + defaults
   core/
     models.py                 Song / Pattern / Channel / NoteEvent / Instrument / Effect
