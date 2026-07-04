@@ -200,4 +200,6 @@ trackermaker/
 
 ### 10. License
 
-No license file is currently included in this repository. Add a `LICENSE` file (e.g. MIT, Apache-2.0) before publishing publicly if you intend others to reuse this code.
+This project is licensed under the Apache License 2.0.
+
+See the [LICENSE](./LICENSE) file for details.
