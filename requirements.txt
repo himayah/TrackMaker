@@ -1,4 +1,4 @@
-# TrackerMaker の依存ライブラリ
+# TrackMaker の依存ライブラリ
 # コア機能（作曲エンジン、MIDI/MOD/S3M/XM/IT/DMF エクスポート）は
 # Python標準ライブラリのみで動作するため、必須の依存関係はありません。
 #

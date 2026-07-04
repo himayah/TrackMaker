@@ -1,4 +1,4 @@
-# TrackerMaker 設定ファイルの例
+# TrackMaker 設定ファイルの例
 # 使い方: python main.py --config example_config.yaml --out midi
 
 rows_per_pattern: 64

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TrackerMaker CLI ―― 世界の音階でランダム作曲し、各種形式へ出力する。
+"""TrackMaker CLI ―― 世界の音階でランダム作曲し、各種形式へ出力する。
 
 使用例:
     python main.py --seed 1234 --out midi
@@ -26,10 +26,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except AttributeError:
         pass
 
-from trackermaker.compose import generate_song
-from trackermaker.config import load_config
-from trackermaker.core.scale import list_scale_names
-from trackermaker.export import EXPORTERS, EXTENSIONS
+from trackmaker.compose import generate_song
+from trackmaker.config import load_config
+from trackmaker.core.scale import list_scale_names
+from trackmaker.export import EXPORTERS, EXTENSIONS
 
 
 def build_parser() -> argparse.ArgumentParser:
